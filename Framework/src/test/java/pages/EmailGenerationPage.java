@@ -15,9 +15,9 @@ public class EmailGenerationPage extends AbstractPage {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(id = "mail_address")
+    @FindBy(id = "mail")
     WebElement copyEmailButton;
-    @FindBy(xpath = "//div[@id='copy_address']//span")
+    @FindBy(xpath = "//*[@title='Google Cloud Sales ']")
     WebElement receivedEmailButton;
     @FindBy(xpath = "//h3[contains(.,'USD')]")
     WebElement costFromEmail;

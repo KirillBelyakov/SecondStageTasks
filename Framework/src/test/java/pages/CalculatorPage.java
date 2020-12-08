@@ -214,7 +214,7 @@ public class CalculatorPage extends AbstractPage {
         ((JavascriptExecutor) driver).executeScript("window.open()");
         ArrayList<String> tabs = new ArrayList<>(driver.getWindowHandles());
         driver.switchTo().window(tabs.get(1));
-        driver.get("https://10minutemail.com");
+        driver.get("https://10minemail.com/");
     }
 
     public CalculatorPage clickEmailEstimate() {
